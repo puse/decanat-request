@@ -1,0 +1,27 @@
+{
+  "name": "request",
+  "repo": "decanat/request",
+  "description": "XHR wrapper for Decanat",
+  "version": "0.2.0",
+  "keywords": [
+    "ajax",
+    "xhr",
+    "decanat"
+  ],
+  "dependencies": {
+    "decanat/miscue": "^0.1.3",
+    "decanat/querystring": "*",
+    "component/type": "^1.0.0",
+    "yiwn/unserialize": "~0.0.1",
+    "yiwn/compact": "*",
+    "decanat/url": "~0.1.1",
+    "yiwn/prop": "~0.0.1"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "lib/request.js",
+  "scripts": [
+    "lib/request.js",
+    "lib/response.js"
+  ]
+}

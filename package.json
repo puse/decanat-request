@@ -1,0 +1,42 @@
+{
+  "name": "decanat-request",
+  "version": "0.2.0",
+  "description": "XHR wrapper for Decanat",
+  "keywords": [
+    "ajax",
+    "xhr",
+    "decanat"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/decanat/request.git"
+  },
+  "browser": "./lib/request.js",
+  "author": "Mushex Antaranian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decanat/request/issues"
+  },
+  "homepage": "https://github.com/decanat/request",
+  "dependencies": {
+    "decanat-miscue": "^0.1.3",
+    "component-type": "^1.0.0",
+    "decanat-querystring": "^1.3.2",
+    "yiwn-unserialize": "0.0.1",
+    "yiwn-compact": "0.0.1",
+    "decanat-url": "^0.1.1",
+    "yiwn-prop": "0.0.1"
+  },
+  "devDependencies": {
+    "phantomjs": "^1.9.7-8",
+    "mocha-phantomjs": "^3.4.1",
+    "express": "^4.4.1",
+    "jshint": "^2.5.1",
+    "jshint-stylish": "^0.2.0",
+    "component": "^1.0.0-rc5"
+  }
+}
