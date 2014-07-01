@@ -1,6 +1,6 @@
 {
   "name": "decanat-request",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "XHR wrapper for Decanat",
   "keywords": [
     "ajax",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/decanat/request",
   "dependencies": {
-    "decanat-miscue": "^0.1.3",
+    "decanat-miscue": "^0.2.0",
     "component-type": "^1.0.0",
     "decanat-querystring": "^1.3.2",
     "yiwn-unserialize": "0.0.1",
